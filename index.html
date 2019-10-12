@@ -1,0 +1,415 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>杰森勀电子商务有限公司</title>
+
+		<link type="text/css" href="css/zzsc.css" rel="stylesheet">
+		<link type="text/css" href="css/dhsm.css" rel="stylesheet">
+		<link type="text/css" href="css/mr.css" rel="stylesheet">
+
+		<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+		<script type="text/javascript" src="js/jquery.DB_tabMotionBanner.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				function anim(duration) {
+					$('#mint').animate({
+						height: 'toggle'
+					}, {
+						duration: duration
+					});
+				}
+
+				$('#closebtn').click(function() {
+					$('#mintbar').slideUp();
+					anim(600);
+				});
+
+				$('#mint').click(function() {
+					anim(600);
+					$('#mintbar').slideDown('slow');
+				});
+
+			});
+		</script>
+
+	</head>
+
+	<body>
+
+		<div id="mintbar">
+			<a id="closebtn" href="#"><img src="images/wd02.png" /></a>
+		</div>
+
+		<div id="mint" style="display:none;position:absolute;top:0;left:200px;">
+			<div class="box-nav-bj" style="background:red;"></div>
+			<div class="top">
+				<div class="top1">
+					<div class="logo">
+						<a href="#"><img src="images/1.jpg" style="height: 200px;width: 180px;" /></a>
+
+					</div>
+
+					<ul id="nav" class="nav clearfix">
+
+						<li class="nLi on" style=" border-left:0;">
+
+							<h3><a href="#" target="_blank">网站首页</a></h3>
+
+						</li>
+
+						<li class="nLi " style="margin-top: 25px;">
+							<h3><a href="indexwater.html" target="_blank">产品展示</a></h3>
+						</li>
+						<li class="nLi " style="margin-top: 25px;">
+							<h3><a href="#" target="_blank">制造商广告</a></h3>
+							<ul class="sub">
+								<li>
+									<a href="product.html" target="_blank">鑫鑫公司</a>
+								</li>
+
+							</ul>
+						</li>
+						<li class="nLi " style="margin-top: 25px;">
+							<h3><a href="#" target="_blank">供应商</a></h3>
+
+						</li>
+						<li class="nLi " style="margin-top: 25px;">
+							<h3><a href="#" target="_blank">公司简介</a></h3>
+						</li>
+
+					</ul>
+
+					<script id="jsID" type="text/javascript">
+						jQuery("#nav").slide({
+							type: "menu", // 效果类型，针对菜单/导航而引入的参数（默认slide）
+							titCell: ".nLi", //鼠标触发对象
+							targetCell: ".sub", //titCell里面包含的要显示/消失的对象
+							effect: "slideDown", //targetCell下拉效果
+							delayTime: 300, //效果时间
+							triggerTime: 0, //鼠标延迟触发时间（默认150）
+							returnDefault: true //鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+						});
+					</script>
+
+					<div class="dibu2">
+						<p>版权所有：杰森勀电子商务有限公司 </p>
+					</div>
+				</div>
+			</div>
+
+			<img class="img1" src="images/wd07.png" alt="xxxx" />
+
+		</div>
+
+		<div class="right-lainxi">
+
+			<ul id="nav-xinxi" class="nav-xinxi clearfix">
+
+				<li class="nLi on" style=" border-left:0;">
+
+					<div class="dianhua"></div>
+
+					<div class="sub">
+						<p>1111111111111</p>
+					</div>
+
+				</li>
+				<li class="nLi ">
+					<div class="lxr"></div>
+
+					<div class="sub">
+						<p>包富为</p>
+					</div>
+				</li>
+				<li class="nLi ">
+					<div class="qq"></div>
+
+					<div class="sub">
+						<p>1111111111111qq.com</p>
+					</div>
+				</li>
+				<li class="nLi ">
+					<div class="dizhi"></div>
+
+					<div class="sub">
+						<p>贵州财经大学笃行楼B栋201</p>
+					</div>
+				</li>
+			</ul>
+			<script id="jsID" type="text/javascript">
+				jQuery("#nav-xinxi").slide({
+					type: "menu", // 效果类型，针对菜单/导航而引入的参数（默认slide）
+					titCell: ".nLi", //鼠标触发对象
+					targetCell: ".sub", //titCell里面包含的要显示/消失的对象
+					effect: "slideDown", //targetCell下拉效果
+					delayTime: 300, //效果时间
+					triggerTime: 0, //鼠标延迟触发时间（默认150）
+					returnDefault: true //鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+				});
+			</script>
+		</div>
+
+		<div class="pic11">
+			<div class="case">
+
+				<div class="hd">
+					<a class="next"></a>
+
+					<a class="prev"></a>
+
+				</div>
+				<div class="bd">
+					<ul>
+						<li class="con-five">
+							<a href="#"><img class="conimg" src="images/2.jpg" /></a>
+							<div class="txt-five">
+								<h3>图片一</h3>
+								<!--<p>为您铺就成为IT大神的在线学习之路</p>-->
+							</div>
+						</li>
+						<li class="con-five">
+							<a href="#"><img class="conimg" src="images/2.jpg" /></a>
+							<div class="txt-five">
+								<h3>图片一</h3>
+								<!--<p>为您铺就成为IT大神的在线学习之路</p>-->
+							</div>
+						</li>
+						<li class="con-five">
+							<a href="#"><img class="conimg" src="images/2.jpg" /></a>
+							<div class="txt-five">
+								<h3>图片一</h3>
+								<!--<p>为您铺就成为IT大神的在线学习之路</p>-->
+							</div>
+						</li>
+						<li class="con-five">
+							<a href="#"><img class="conimg" src="images/2.jpg" /></a>
+							<div class="txt-five">
+								<h3>图片一</h3>
+								<!--<p>为您铺就成为IT大神的在线学习之路</p>-->
+							</div>
+						</li>
+						<li class="con-five">
+							<a href="#"><img class="conimg" src="images/2.jpg" /></a>
+							<div class="txt-five">
+								<h3>图片一</h3>
+								<!--<p>为您铺就成为IT大神的在线学习之路</p>-->
+							</div>
+						</li>
+						<li class="con-five">
+							<a href="#"><img class="conimg" src="images/2.jpg" /></a>
+							<div class="txt-five">
+								<h3>图片一</h3>
+								<!--<p>为您铺就成为IT大神的在线学习之路</p>-->
+							</div>
+						</li>
+						<li class="con-five">
+							<a href="#"><img class="conimg" src="images/2.jpg" /></a>
+							<div class="txt-five">
+								<h3>图片一</h3>
+								<!--<p>为您铺就成为IT大神的在线学习之路</p>-->
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<script type="text/javascript">
+			jQuery(".case").slide({
+				titCell: ".hd ul",
+				mainCell: ".bd ul",
+				autoPage: true,
+				effect: "left",
+				autoPlay: true,
+				vis: 4,
+				trigger: "click"
+			});
+		</script>
+
+		<div class="DB_tab25">
+
+			<ul class="DB_bgSet">
+				<li>
+
+					<a href="#"><img src="images/11.png" /></a>
+
+				</li>
+				<li>
+
+					<a href="#"><img src="images/22.png" /></a>
+
+				</li>
+				<li>
+
+					<a href="#"><img src="images/33.jpg" /></a>
+
+				</li>
+			</ul>
+
+			<ul class="DB_imgSet" style="position:absolute !important;">
+				<li>
+
+					<img class="DB_1_1" src="images/dehui01.png">
+					<h2 class="DB_1_2" style="color: white; font-size: 80px;">杰森勀电子</h2>
+					<!--<img class="DB_1_2" src="images/dehui02.png" alt="" />-->
+					<!--<img class="DB_1_3" src="images/dehui03.png" alt="" />-->
+					<h2 class="DB_1_3" style="color: white; font-size: 80px;">商务有限公司</h2>
+					<img class="DB_1_4" src="images/dehui04.png" alt="" />
+
+				</li>
+				<li>
+					<img class="DB_1_1" src="images/dehui01.png">
+					<h2 class="DB_1_2" style="color: white; font-size: 80px;">杰森勀电子</h2>
+					<!--<img class="DB_1_2" src="images/dehui02.png" alt="" />-->
+					<!--<img class="DB_1_3" src="images/dehui03.png" alt="" />-->
+					<h2 class="DB_1_3" style="color: white; font-size: 80px;">商务有限公司</h2>
+					<img class="DB_1_4" src="images/dehui04.png" alt="" />
+
+				</li>
+
+				<li>
+					<img class="DB_1_1" src="images/dehui01.png">
+					<h2 class="DB_1_2" style="color: white; font-size: 80px;">杰森勀电子</h2>
+					<!--<img class="DB_1_2" src="images/dehui02.png" alt="" />-->
+					<!--<img class="DB_1_3" src="images/dehui03.png" alt="" />-->
+					<h2 class="DB_1_3" style="color: white; font-size: 80px;">商务有限公司</h2>
+					<img class="DB_1_4" src="images/dehui04.png" alt="" />
+
+				</li>
+
+			</ul>
+			<div class="DB_menuWrap">
+				<ul class="DB_menuSet">
+					<li><img src="images/btn_off.gif" alt="" /></li>
+					<li><img src="images/btn_off.gif" alt="" /></li>
+					<li><img src="images/btn_off.gif" alt="" /></li>
+
+				</ul>
+
+			</div>
+			<!--<div class="DB_next"><img src="images/dehui09.png" alt="NEXT"/></div>
+		<div class="DB_prev"><img src="images/dehui08.png" alt="PREV"/></div>
+</div>-->
+			<script type="text/javascript">
+				$('.DB_tab25').DB_tabMotionBanner({
+					key: 'b28551',
+					autoRollingTime: 10000,
+					bgSpeed: 500,
+					motion: {
+
+						DB_1_1: {
+							left: 1000,
+							opacity: 0.2,
+							speed: 3000,
+							delay: 1000
+						},
+						DB_1_2: {
+							left: -1200,
+							opacity: 0.2,
+							speed: 1000,
+							delay: 1000
+						},
+						DB_1_3: {
+							left: 1100,
+							opacity: 0.4,
+							speed: 1000,
+							delay: 1500
+						},
+						DB_1_4: {
+							top: -1100,
+							opacity: 0.4,
+							speed: 1000,
+							delay: 1500
+						},
+
+						DB_2_1: {
+							top: 50,
+							opacity: 0,
+							speed: 1000,
+							delay: 500
+						},
+						DB_2_2: {
+							top: 50,
+							opacity: 0,
+							speed: 1000,
+							delay: 1000
+						},
+						DB_2_3: {
+							left: 100,
+							opacity: 0,
+							speed: 1000,
+							delay: 1500
+						},
+						DB_2_4: {
+							top: 50,
+							opacity: 0,
+							speed: 1000,
+							delay: 500
+						},
+						DB_2_5: {
+							top: 50,
+							opacity: 0,
+							speed: 1000,
+							delay: 1000
+						},
+
+						DB_3_1: {
+							top: 300,
+							opacity: 0,
+							speed: 1000,
+							delay: 500
+						},
+						DB_3_2: {
+							left: -350,
+							opacity: 0,
+							speed: 1000,
+							delay: 1000
+						},
+
+						DB_4_1: {
+							left: -50,
+							opacity: 0,
+							speed: 1000,
+							delay: 500
+						},
+						DB_4_2: {
+							left: -50,
+							opacity: 0,
+							speed: 1000,
+							delay: 1000
+						},
+						DB_4_3: {
+							left: -50,
+							opacity: 0,
+							speed: 1000,
+							delay: 1500
+						},
+						DB_4_4: {
+							left: -50,
+							opacity: 0,
+							speed: 1000,
+							delay: 2000
+						},
+						DB_4_5: {
+							left: 100,
+							opacity: 0,
+							speed: 1000,
+							delay: 3000
+						},
+
+						end: null
+					}
+
+				})
+			</script>
+
+	</body>
+
+</html>
